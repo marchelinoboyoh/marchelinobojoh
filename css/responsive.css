@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 768px) {
   /* Hero */
-  #hero a {
+  #hero .dcv {
     font-size: 0.6rem;
     color: #ffffff;
     margin: 150px;
