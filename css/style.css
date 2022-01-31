@@ -126,6 +126,7 @@ section h1 {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
   align-items: center;
+  margin-top: 40px;
 }
 
 #project img {
@@ -168,6 +169,7 @@ section h3 {
   width: 170px;
   border-radius: 10px;
   border: 0px;
+  margin-top: -30px;
 }
 
 #skillstools .card_bottom {
@@ -176,7 +178,7 @@ section h3 {
   width: 170px;
   border-radius: 10px;
   border: 0px;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .st_content {
@@ -206,7 +208,7 @@ section h3 {
 }
 
 #certificate .certif img {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 30px;
   width: 25%;
 }

@@ -12,6 +12,7 @@
     margin-left: 8px;
     font-size: 0.7rem;
   }
+
   .grid {
     margin: 50px;
     display: grid;
@@ -22,22 +23,31 @@
 
   #project img {
     width: 490px;
-    margin: 30px;
+    margin: 10px;
   }
 }
 
 @media screen and (max-width: 1024px) {
+  /*Hero*/
   .dcv {
     margin-left: 8px;
     font-size: 0.7rem;
   }
+  #hero img {
+    width: 375px;
+  }
+  .profil {
+    margin-top: 85px;
+  }
   /*Skills and Tools*/
   #skillstools .card_bottom {
-    margin-top: 10px;
+    margin-top: 140px;
+    margin-bottom: 250px;
+    margin-bottom: 10px;
   }
   #skillstools .card {
-    margin-top: 10px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    bottom: 50px;
   }
   #skillstools h1 {
     margin-top: 120px;
@@ -52,20 +62,21 @@
     margin-right: 25px;
     width: 30%;
   }
-  /*End Skills and Tools*/
-
+  /*Project*/
   .grid {
-    margin: 80px;
+    margin: 200px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 30px;
+    grid-gap: 10px;
     align-items: center;
+    margin-top: 40px;
   }
 
   #project img {
     width: 500px;
-    margin: 30px;
+    margin: 20px;
   }
+  /*Skill and Tool*/
 }
 
 @media screen and (max-width: 768px) {
@@ -90,25 +101,29 @@
   section h1 {
     margin-top: 30px;
   }
-  /*End Hero */
 
   /*About */
+  #aboutme h1 {
+    font-size: 2.4rem;
+  }
   #aboutme p {
     text-align: justify !important;
     font-size: 0.9em;
   }
-  /*End About*/
 
   /*Skills and Tools*/
   #skillstools .card_bottom {
-    margin-top: 80px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    margin-left: 70px;
   }
   #skillstools .card {
-    margin-top: 20px;
+    margin-top: 1px;
+    left: 35px;
   }
   #skillstools h1 {
     margin-top: 100px;
+    font-size: 2.4rem;
   }
   #skillstools .logo_1 img {
     width: 18%;
@@ -120,14 +135,23 @@
     margin-right: 25px;
     width: 30%;
   }
-  /*End Skills and Tools*/
 
   /*Project*/
   #project img {
-    width: 430px;
-    margin: 30px;
+    width: 500px;
+    margin: 20px;
   }
-  /*End Project*/
+  #project h1 {
+    font-size: 2.4rem;
+  }
+  .grid {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+    margin-top: 40px;
+  }
 
   /*Footer*/
   .footer-social-icon {
@@ -140,16 +164,90 @@
   .footer_email {
     text-align: center;
   }
-}
-
-@media screen and (max-width: 576px) {
-  #hero img {
-    width: 300px;
+  /*Certificate*/
+  #certificate {
+    min-height: 500px;
+  }
+  #certificate h1 {
+    font-size: 2.4rem;
+  }
+  #certificate p {
+    font-size: 0.8rem;
+  }
+  #certificate .certif img {
+    margin-top: 40px;
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 576px) {
+  /*Hero*/
+  #hero img {
+    width: 300px;
+  }
+  #hero .dcv {
+    font-size: 0.6rem;
+    color: #ffffff;
+    margin: 120px;
+  }
+  /*About Me*/
+  #aboutme p {
+    text-align: justify !important;
+    font-size: 0.8em;
+  }
+  #aboutme {
+    min-height: 350px;
+  }
+  #aboutme h1 {
+    font-size: 2.4rem;
+  }
+  /*Project*/
+  #project img {
+    width: 370px;
+    margin: 10px;
+  }
+  .grid {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+  }
+  /*Skills and Tools*/
+  #skillstools {
+    min-height: 400px;
+  }
+  #skillstools h1 {
+    font-size: 2.4rem;
+    margin-top: 30px;
+  }
+  #skillstools .card_bottom {
+    margin-top: 10px;
+    margin-bottom: 120px;
+    margin-left: 0px;
+  }
+  #skillstools .card {
+    margin-top: 1px;
+    left: 0px;
+  }
+  /*Certificate*/
+  #certificate {
+    min-height: 500px;
+  }
+  #certificate h1 {
+    font-size: 2.4rem;
+  }
+  #certificate p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
   #hero img {
     width: 350px;
+  }
+  #hero .dcv {
+    font-size: 0.6rem;
+    color: #ffffff;
+    margin: 100px;
   }
 }
