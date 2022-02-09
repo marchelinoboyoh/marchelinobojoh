@@ -22,7 +22,8 @@ html {
 .btn_nav {
   border: 1px solid var(--secondaryColor);
   color: var(--secondaryColor);
-  border-radius: 10px;
+  border-radius: 5px;
+  min-width: 50px;
 }
 .navbg {
   background-color: var(--bluecolor) !important;
