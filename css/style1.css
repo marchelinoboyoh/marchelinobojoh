@@ -1,0 +1,235 @@
+:root {
+--mainColor: #222222;
+--secondaryColor: #ffffff;
+--bluecolor: #2746b1;
+--textcolor: #2f2f2f;
+}
+
+body {
+background-color: var(--mainColor);
+min-height: 900px;
+font-family: "roboto", sans-serif;
+}
+html {
+scroll-behavior: smooth;
+}
+
+
+/*Navbar*/
+.nav-link.active {
+color: var(--secondaryColor) !important;
+}
+
+.btn_nav {
+border: 1px solid var(--secondaryColor);
+color: var(--secondaryColor);
+border-radius: 5px;
+min-width: 50px;
+}
+.navbg {
+background-color: var(--bluecolor) !important;
+z-index: 10;
+transition: 0.6s;
+}
+
+
+
+/*Hero Section*/
+section h1 {
+color: #ffffff;
+font-size: 3rem;
+margin-top: 100px;
+}
+
+.color-bluecolor {
+color: var(--bluecolor);
+}
+#hero {
+color: #ffffff;
+min-height: 750px;
+padding-top: 75px;
+position: relative;
+}
+
+/* Button Email */
+.btn1 {
+background-color: var(--bluecolor);
+text-align: center;
+color: #ffffff;
+min-width: 130px;
+height: 45px;
+font-weight: 500;
+font-size: 1.1rem;
+border-radius: 5px;
+}
+
+.btn1:hover {
+box-shadow: 0 0 20px rgba(15, 10, 222, 1);
+}
+.dcv {
+color: #ffffff;
+cursor: pointer;
+margin-left: 25px;
+}
+
+/* Social Media */
+.social-icon svg {
+margin-right: 0.8em;
+margin-bottom: 0px;
+}
+
+.profil img{
+margin-top: 50px;
+border-radius: 50%;
+border: 10px solid #2746b1;
+}
+.effect-wrap .effect{
+position: absolute;
+z-index: -1;
+}
+.effect-1{
+width: 30px;
+height: 30px;
+border:15px solid #C03E23;
+right: 10%;
+bottom: 10%;
+animation: spin 15s linear infinite;
+}
+
+.effect-2{
+border-top: 50px solid transparent;
+border-left: 50px solid #6AC023;
+left: 25%;
+top: 10%;
+animation: spin 20s linear infinite;
+}
+
+.effect-3{
+height: 110px;
+width: 110px;
+right: 5%;
+top: 25%;
+display: flex;
+justify-content: space-between;
+border-radius: 50%;
+overflow: hidden;
+animation: spin 20s linear infinite;
+}
+
+.effect-3 div{
+width: 3px;
+background-color: #D6A714;
+
+}
+.effect-4{
+width: 50px;
+height: 50px;
+border:5px solid #D6D614;
+left: 40%;
+bottom: 15%;
+animation: spin 20s linear infinite;
+}
+
+.effect-5{
+height: 180px;
+width: 180px;
+border: 90px solid #D61458;
+border-radius: 50%;
+left: -7%;
+top: 250px;
+animation: leftBounce 3s ease-in-out infinite;
+/* animation: leftBounce 3s ease-in-out infinite; */
+}
+
+@keyframes spin{
+0%{
+transform: rotate(0deg);
+}
+100%{
+transform: rotate(1160deg);
+}
+}
+
+/* @keyframes leftBounce{
+0%, 100%{
+transform: translateX(0);
+}
+50%{
+transform: translateX(25px);
+}
+} */
+
+@keyframes leftBounce{
+0%, 100%{
+transform: translateY(0);
+}
+50%{
+transform: translateY(40px);
+}
+}
+/*End Hero Section*/
+
+
+
+/*About Me*/
+
+/* .right_line {
+position: absolute;
+bottom: -18%;
+left: 860px;
+width: 25%;
+height: 5px;
+color: #2746b1;
+margin: 0 auto;
+opacity: 100%;
+}
+
+.left_line {
+position: absolute;
+bottom: -18%;
+left: 210px;
+width: 25%;
+height: 5px;
+color: #2746b1;
+margin: 0 auto;
+opacity: 100%;
+} */
+
+#aboutme {
+min-height: 700px;
+width: 100%;
+background-color: var(--secondaryColor);
+color: #353535;
+padding-bottom: 80;
+margin-bottom: 80px;
+font-size: 1.1rem;
+}
+
+.btn2 {
+background-color: var(--bluecolor);
+text-align: center;
+color: #ffffff;
+min-width: 230px;
+height: 55px;
+font-weight: 500;
+font-size: 1.1rem;
+border-radius: 5px;
+margin-top: 2%;
+}
+.btn2:hover {
+box-shadow: 0 0 20px rgba(15, 10, 222, 1);
+}
+
+#aboutme .profile{
+ text-align: left;
+ margin-left: 100%;
+ margin-right: 40%;
+}
+/*End About Me*/
+
+/*Footer*/
+.footer-social-icon svg {
+margin-right: 0.8em;
+margin-bottom: 60px;
+}
+/*End Footer*/
