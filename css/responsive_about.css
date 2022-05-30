@@ -1,0 +1,260 @@
+@media screen and (max-width: 1200px) {
+    #hero .back-button{
+        width: 40px;
+        height: 40px;
+        right: 88%;
+        bottom: 94%;
+        position: absolute;
+    }
+    #hero p {
+        font-size: 0.9em;
+    }
+    section h1 {
+        color: #ffffff;
+        margin-top: 50px;
+    }
+    .social-icon {
+        left: 60%;
+        transform: translate(-85%);
+        margin-bottom: -100px;
+      }
+
+     #hero .dcv {
+    font-size: 0.7rem;
+    color: #ffffff;
+    margin-top: 500px;
+    }
+    
+    #hero img {
+        width: 350px;
+    }
+    #aboutme p {
+    font-size: 0.9em;
+  }
+  #aboutme .profile{
+    text-align: left;
+    margin-left: 100%;
+    margin-right: 60%;
+   }
+   
+    .footer-social-icon {
+    text-align: center;
+  }
+
+  .footer_name {
+    text-align: center;
+  }
+  .footer_email {
+    text-align: center;
+  } 
+    
+  }
+  
+  @media screen and (max-width: 1024px) {
+/*     
+    #hero .back-button{
+        width: 40px;
+        height: 40px;
+        right: 88%;
+        bottom: 94%;
+        position: absolute;
+    } */
+    #hero p {
+        font-size: 1em;
+    }
+    section h1 {
+        color: #ffffff;
+        margin-top: 50px;
+    }
+    .social-icon {
+        left: 60%;
+        transform: translate(-85%);
+        margin-bottom: -100px;
+      }
+
+     #hero .dcv {
+    font-size: 0.7rem;
+    color: #ffffff;
+    margin-top: 500px;
+    }
+    
+    #hero img {
+        width: 350px;
+    }
+    #aboutme p {
+    font-size: 0.9em;
+  }
+  #aboutme .profile{
+    text-align: left;
+    margin-left: 100%;
+    margin-right: 60%;
+   }
+   
+    .footer-social-icon {
+    text-align: center;
+  }
+
+  .footer_name {
+    text-align: center;
+  }
+  .footer_email {
+    text-align: center;
+  } 
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* Hero */
+    #hero .back-button{
+        width: 40px;
+        height: 40px;
+        right: 88%;
+        bottom: 94%;
+        position: absolute;
+    } */
+    #hero p {
+        font-size: 1em;
+    }
+    section h1 {
+        color: #ffffff;
+        margin-top: 50px;
+    }
+    .social-icon {
+        left: 60%;
+        transform: translate(-85%);
+        margin-bottom: -100px;
+      }
+
+     #hero .dcv {
+    font-size: 0.7rem;
+    color: #ffffff;
+    margin-top: 500px;
+    }
+    
+    #hero img {
+        width: 350px;
+    }
+    #aboutme p {
+    font-size: 0.9em;
+  }
+  #aboutme .profile{
+    text-align: left;
+    margin-left: 100%;
+    margin-right: 60%;
+   }
+   
+    .footer-social-icon {
+    text-align: center;
+  }
+
+  .footer_name {
+    text-align: center;
+  }
+  .footer_email {
+    text-align: center;
+  } 
+    
+  }
+  
+  @media screen and (max-width: 576px) {
+    #hero .back-button{
+        width: 40px;
+        height: 40px;
+        right: 88%;
+        bottom: 94%;
+        position: absolute;
+    }
+    #hero p {
+        font-size: 0.9em;
+    }
+    section h1 {
+        color: #ffffff;
+        margin-top: 50px;
+    }
+    .social-icon {
+        left: 60%;
+        transform: translate(-85%);
+        margin-bottom: -100px;
+      }
+
+     #hero .dcv {
+    font-size: 0.7rem;
+    color: #ffffff;
+    margin-top: 500px;
+    }
+    
+    #hero img {
+        width: 350px;
+    }
+    #aboutme p {
+    font-size: 0.9em;
+  }
+  #aboutme .profile{
+    text-align: left;
+    margin-left: 100%;
+    margin-right: 60%;
+   }
+   
+    .footer-social-icon {
+    text-align: center;
+  }
+
+  .footer_name {
+    text-align: center;
+  }
+  .footer_email {
+    text-align: center;
+  }    
+}
+  
+  @media screen and (max-width: 390px) {
+
+    #hero .back-button{
+        width: 40px;
+        height: 40px;
+        right: 80%;
+        bottom: 94%;
+        position: absolute;
+    }
+    #hero p {
+        font-size: 0.9em;
+    }
+    section h1 {
+        color: #ffffff;
+        margin-top: 50px;
+    }
+    .social-icon {
+        left: 60%;
+        transform: translate(-80%);
+        margin-bottom: -100px;
+      }
+
+     #hero .dcv {
+    font-size: 0.7rem;
+    color: #ffffff;
+    margin-top: 500px;
+    }
+    
+    #hero img {
+        width: 350px;
+    }
+    #aboutme p {
+    font-size: 0.9em;
+  }
+  #aboutme .profile{
+    text-align: left;
+    margin-left: 100%;
+    margin-right: 95%;
+   }
+   
+    .footer-social-icon {
+    text-align: center;
+  }
+
+  .footer_name {
+    text-align: center;
+  }
+  .footer_email {
+    text-align: center;
+  }
+}
+  

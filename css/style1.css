@@ -46,7 +46,7 @@ color: var(--bluecolor);
 }
 #hero {
 color: #ffffff;
-min-height: 750px;
+min-height: 900px;
 padding-top: 75px;
 position: relative;
 }
